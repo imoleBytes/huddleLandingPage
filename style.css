@@ -1,0 +1,24 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header{
+    /* background-color: aquamarine; */
+    background-image: url(./images/bg-hero.svg);
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container{
+    width: 80%;
+    height: 50%;
+    /* background-color: aquamarine; */
+    margin: auto;
+
+
+}

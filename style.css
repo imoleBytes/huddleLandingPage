@@ -9,7 +9,7 @@ body{
 }
 
 header{
-    /* background-color: aquamarine; */
+    background-color: hsl(193, 100%, 96%);
     background-image: url(./images/bg-hero.svg);
     background-position: center;
     background-size: cover;
@@ -19,7 +19,7 @@ header{
 
 .container{
     width: 80%;
-    height: 50%;
+    /* height: 50%; */
     /* background-color: aquamarine; */
     margin: auto;
 }
@@ -80,4 +80,3 @@ a{
 .hero-right img{
     width: 100%;
 }
-

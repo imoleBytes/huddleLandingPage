@@ -80,3 +80,38 @@ a{
 .hero-right img{
     width: 100%;
 }
+
+.card{
+    display: flex;
+    gap: 10px;
+    /* border-style: solid; */
+    border-width: 0.005px;
+    border-color: hsl(208, 11%, 55%);
+    box-shadow: 3px 1px 4px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    overflow: hidden;
+}
+
+.card-left{
+    flex: 1;
+}
+.card-right{
+    flex: 1;
+}
+
+.card img{
+    width: 100%;
+}
+.card p{
+    color:hsl(208, 11%, 55%) ;
+}
+
+.card h1{
+    color: hsl(192, 100%, 9%);
+}
